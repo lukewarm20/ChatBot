@@ -23,6 +23,6 @@ while True:
                         print user + " typed :" + message
                         if "" in message:
 
-                                os.system('message')
+                                os.system("'message'")
                                 sendMessage(s, message + " extra text afterwards, no harm!")
                                 break
