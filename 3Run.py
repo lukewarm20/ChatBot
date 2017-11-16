@@ -21,8 +21,10 @@ while True:
                         user = getUser(line)
                         message = getMessage(line)
                         print user + " typed :" + message
-                        if "" in message:
+			cmd="echo "+message
+			os.system(cmd)
+                        ##if "" in message:
 
-                                os.system("'message'")
-                                sendMessage(s, message + " extra text afterwards, no harm!")
-                                break
+                                ##os.system("'message'")
+                                ##sendMessage(s, message + " extra text afterwards, no harm!")
+                                ##break
