@@ -14,7 +14,7 @@ while True:
 		readbuffer = readbuffer + s.recv(1024)
 		temp = string.split(readbuffer, "\n")
 		readbuffer = temp.pop()
-
+##for pyautogui keep normal terminal space where it normally spawns as well as keep it on always on top mode
 		for line in temp:
 			print(line)
                         user = getUser(line)
@@ -99,7 +99,7 @@ while True:
                                 break
                         if "!" in message:
                                 pyautogui.hotkey('enter')
-				pyautogui.sleep('1')
+				time.sleep(1)
 				pyautogui.size()
 				(1366, 768)
 				
