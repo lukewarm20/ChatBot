@@ -208,7 +208,37 @@ while True:
                         if "0" in message:
                                 pyautogui.typewrite('0')
                                 break
-##This 
+                        #if "!" in message: ##eventually ! will not be enter
+                                #pyautogui.typewrite('!')
+                                #break
+                        if "@" in message:
+                                pyautogui.typewrite('@')
+                                break
+                        if "#" in message:
+                                pyautogui.typewrite('#')
+                                break
+                        if "$" in message:
+                                pyautogui.typewrite('$')
+                                break
+                        if "%" in message:
+                                pyautogui.typewrite('%')
+                                break
+                        if "^" in message:
+                                pyautogui.typewrite('^')
+                                break
+                        if "&" in message:
+                                pyautogui.typewrite('&')
+                                break
+                        if "*" in message:
+                                pyautogui.typewrite('*')
+                                break
+                        if "(" in message:
+                                pyautogui.typewrite('(')
+                                break
+                        if ")" in message:
+                                pyautogui.typewrite(')')
+                                break				
+##This is the Symbols
 ##This needs to be a string of characters like ctrl+alt+g or something to this extent
                         if "!" in message:
                                 pyautogui.hotkey('enter')
