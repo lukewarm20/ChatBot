@@ -208,9 +208,9 @@ while True:
                         if "0" in message:
                                 pyautogui.typewrite('0')
                                 break
-                        #if "!" in message: ##eventually ! will not be enter
-                                #pyautogui.typewrite('!')
-                                #break
+                        if "!" in message:
+                                pyautogui.typewrite('!')
+                                break
                         if "@" in message:
                                 pyautogui.typewrite('@')
                                 break
@@ -240,13 +240,15 @@ while True:
                                 break				
 ##This is the Symbols
 ##This needs to be a string of characters like ctrl+alt+g or something to this extent
-                        if "!" in message:
+##Using japanese characters as substitute because all other american/european letters are taken
+##Character " し " will be used as enter
+                        if "し" in message:
                                 pyautogui.hotkey('enter')
 
 				##keep the terminal in the normal spot
 				##right click the top of the terminal window and click always on top
 				##this is the "paste into twitchchat" part of the script
-				##make this it's own command? possibly use different characters?
+				##might just get rid of this part of the script
 				pyautogui.moveTo(392, 206)
 				pyautogui.click(clicks=1)
 				pyautogui.moveTo(399, 290)
@@ -267,6 +269,32 @@ while True:
 
 
 				##add extras for capitals, symbols and numbers
+##This is the "refresh" character to print the current terminal screen
+##Making the pasting option be also having the copying the small sized terminal is an option too
+##Possibly make the 
 
+##Refresh character " ぁ " is used to show the newest screen for the terminal
+                        if "ぁ" in message:
+		
+				##keep the terminal in the normal spot
+				##right click the top of the terminal window and click always on top
+				##this is the "paste into twitchchat" part of the script
+				##make this it's own command? possibly use different characters?
+				pyautogui.moveTo(392, 206)
+				pyautogui.click(clicks=1)
+				pyautogui.moveTo(399, 290)
+				pyautogui.click(clicks=1)
+				pyautogui.click(button='right')
+				pyautogui.moveTo(440, 370)
+				pyautogui.click(button='right')
+				pyautogui.moveTo(1037, 599)
+				pyautogui.click(button='right')
+				pyautogui.moveTo(1061, 416)
+				pyautogui.click(clicks=1)
+				pyautogui.hotkey('enter')
+				pyautogui.moveTo(634, 379)
+				pyautogui.click(clicks=1)
+
+				break
 
 
