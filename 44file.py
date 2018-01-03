@@ -237,8 +237,68 @@ while True:
                                 break
                         if ")" in message:
                                 pyautogui.typewrite(')')
-                                break				
-##This is the Symbols
+                                break		
+				
+				
+				
+				
+				
+				
+                        if "`" in message:
+                                pyautogui.typewrite('`')
+                                break
+                        if "~" in message:
+                                pyautogui.typewrite('~')
+                                break
+                        if "[" in message:
+                                pyautogui.typewrite('[')
+                                break
+                        if "#" in message:
+                                pyautogui.typewrite(']')
+                                break
+                        if "$" in message:
+                                pyautogui.typewrite('{')
+                                break
+                        if "%" in message:
+                                pyautogui.typewrite('}')
+                                break
+                        if "^" in message:
+                                pyautogui.typewrite('\')
+                                break
+                        if "&" in message:
+                                pyautogui.typewrite('|')
+                                break
+                        if "*" in message:
+                                pyautogui.typewrite(':')
+                                break
+                        if "(" in message:
+                                pyautogui.typewrite(';')
+                                break
+                        if ")" in message:
+                                pyautogui.typewrite('-')
+				break
+			if "'" in message:
+                                pyautogui.typewrite("'")
+				break
+                        if "#" in message:
+                                pyautogui.typewrite(',')
+                                break
+                        if "$" in message:
+                                pyautogui.typewrite('<')
+                                break
+                        if "%" in message:
+                                pyautogui.typewrite('.')
+                                break
+                        if "^" in message:
+                                pyautogui.typewrite('>')
+                                break
+                        if "&" in message:
+                                pyautogui.typewrite('/')
+                                break
+				
+				
+				
+				##This is the Symbols
 ##This needs to be a string of characters like ctrl+alt+g or something to this extent
 ##Using japanese characters as substitute because all other american/european letters are taken
 ##Character " し " will be used as enter
