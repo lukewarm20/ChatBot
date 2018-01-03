@@ -245,6 +245,8 @@ while True:
 
 				##keep the terminal in the normal spot
 				##right click the top of the terminal window and click always on top
+				##this is the "paste into twitchchat" part of the script
+				##make this it's own command? possibly use different characters?
 				pyautogui.moveTo(392, 206)
 				pyautogui.click(clicks=1)
 				pyautogui.moveTo(399, 290)
