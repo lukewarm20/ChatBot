@@ -253,47 +253,53 @@ while True:
                         if "[" in message:
                                 pyautogui.typewrite('[')
                                 break
-                        if "#" in message:
+                        if "]" in message:
                                 pyautogui.typewrite(']')
                                 break
-                        if "$" in message:
+                        if "{" in message:
                                 pyautogui.typewrite('{')
                                 break
-                        if "%" in message:
+                        if "}" in message:
                                 pyautogui.typewrite('}')
                                 break
-                        if "^" in message:
+                        if "'\'" in message:
                                 pyautogui.typewrite('\')
                                 break
-                        if "&" in message:
+                        if "|" in message:
                                 pyautogui.typewrite('|')
                                 break
-                        if "*" in message:
+                        if ":" in message:
                                 pyautogui.typewrite(':')
                                 break
-                        if "(" in message:
+                        if ";" in message:
                                 pyautogui.typewrite(';')
                                 break
-                        if ")" in message:
+                        if "-" in message:
                                 pyautogui.typewrite('-')
 				break
 			if "'" in message:
                                 pyautogui.typewrite("'")
 				break
-                        if "#" in message:
+                        if "," in message:
                                 pyautogui.typewrite(',')
                                 break
-                        if "$" in message:
+                        if "<" in message:
                                 pyautogui.typewrite('<')
                                 break
-                        if "%" in message:
+                        if "." in message:
                                 pyautogui.typewrite('.')
                                 break
-                        if "^" in message:
+                        if ">" in message:
                                 pyautogui.typewrite('>')
                                 break
-                        if "&" in message:
+                        if "/" in message:
                                 pyautogui.typewrite('/')
+                                break
+                        if "+" in message:
+                                pyautogui.typewrite('+')
+                                break
+                        if "=" in message:
+                                pyautogui.typewrite('=')
                                 break
 				
 				
