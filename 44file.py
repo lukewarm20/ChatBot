@@ -6,6 +6,12 @@ from Read import getUser, getMessage
 from Socket import openSocket, sendMessage
 from Initialize import joinRoom
 
+
+##from flask import Flask, request
+##import json
+##import requests
+##import redis
+
 s = openSocket()
 joinRoom(s)
 readbuffer = ""
@@ -16,6 +22,8 @@ while True:
 		readbuffer = temp.pop()
 
 		##possibly use this? data['message']
+		##submittedText = message.replace("/speech ","",1)
+		##if message.startswith("/speech "):
 		for line in temp:
 			print(line)
                         user = getUser(line)
