@@ -13,6 +13,8 @@ app = Flask(__name__)
 ##import requests
 ##import redis
 
+##Possibly work with the Read.py for transferring the 'message' into pyautogui
+
 s = openSocket()
 joinRoom(s)
 readbuffer = ""
