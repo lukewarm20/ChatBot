@@ -15,6 +15,7 @@ while True:
 		temp = string.split(readbuffer, "\n")
 		readbuffer = temp.pop()
 
+		##possibly use this? data['message']
 		for line in temp:
 			print(line)
                         user = getUser(line)
