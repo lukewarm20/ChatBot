@@ -6,6 +6,7 @@ from Read import getUser, getMessage
 from Socket import openSocket, sendMessage
 from Initialize import joinRoom
 
+app = Flask(__name__)
 
 ##from flask import Flask, request
 ##import json
